@@ -9,10 +9,10 @@ jobs:
       - name: Pring bye
         run: echo "Bye...................."
 
-  second-job:
-    needs first-job
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check uptime and histname
-        run:  hostname && uptime
+  #second-job:
+  #  needs first-job
+  #  runs-on: ubuntu-latest
+  #  steps:
+  #    - name: Check uptime and histname
+  #      run:  hostname && uptime
       
